@@ -37,8 +37,9 @@ CLOSEPAREN=36
 LINECMT=37
 BLCKCMT=38
 SPACE=39
-WHITESPACE=40
-NEWLINE=41
+COLON=40
+WHITESPACE=41
+NEWLINE=42
 'True'=1
 'False'=2
 'if'=3
@@ -63,7 +64,7 @@ NEWLINE=41
 '<'=27
 '<='=28
 '>'=29
-'>+'=30
+'>='=30
 '=='=31
 '!='=32
 '['=33
@@ -73,5 +74,6 @@ NEWLINE=41
 '#'=37
 '\'\'\''=38
 ' '=39
-'\t'=40
-'\n'=41
+':'=40
+'\t'=41
+'\n'=42

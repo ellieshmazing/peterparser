@@ -12,8 +12,8 @@ OR : 'or';
 NOT : 'not';
 
 fragment DIGIT : [0-9];
-INTEGER : DIGIT+;
-FLOAT : DIGIT* '.' DIGIT+;
+INTEGER : '-'? DIGIT+;
+FLOAT : '-'? DIGIT* '.' DIGIT+;
 
 fragment LETTER : [a-z] | [A-Z];
 COMMA : ',';
@@ -36,7 +36,7 @@ DIVASN : '/=';
 LT : '<';
 LTE : '<=';
 GT : '>';
-GTE : '>+';
+GTE : '>=';
 EQUIV : '==';
 NEQUIV : '!=';
 
@@ -49,5 +49,6 @@ LINECMT : '#';
 BLCKCMT : '\'\'\'';
 
 SPACE : ' ' -> skip;
+COLON : ':';
 WHITESPACE : '\t';
 NEWLINE : '\n';

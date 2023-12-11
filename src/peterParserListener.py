@@ -53,12 +53,84 @@ class peterParserListener(ParseTreeListener):
         pass
 
 
+    # Enter a parse tree produced by peterParser#ifblock.
+    def enterIfblock(self, ctx:peterParser.IfblockContext):
+        pass
+
+    # Exit a parse tree produced by peterParser#ifblock.
+    def exitIfblock(self, ctx:peterParser.IfblockContext):
+        pass
+
+
+    # Enter a parse tree produced by peterParser#body.
+    def enterBody(self, ctx:peterParser.BodyContext):
+        pass
+
+    # Exit a parse tree produced by peterParser#body.
+    def exitBody(self, ctx:peterParser.BodyContext):
+        pass
+
+
+    # Enter a parse tree produced by peterParser#conditional.
+    def enterConditional(self, ctx:peterParser.ConditionalContext):
+        pass
+
+    # Exit a parse tree produced by peterParser#conditional.
+    def exitConditional(self, ctx:peterParser.ConditionalContext):
+        pass
+
+
+    # Enter a parse tree produced by peterParser#conditionalval.
+    def enterConditionalval(self, ctx:peterParser.ConditionalvalContext):
+        pass
+
+    # Exit a parse tree produced by peterParser#conditionalval.
+    def exitConditionalval(self, ctx:peterParser.ConditionalvalContext):
+        pass
+
+
+    # Enter a parse tree produced by peterParser#conditionalop.
+    def enterConditionalop(self, ctx:peterParser.ConditionalopContext):
+        pass
+
+    # Exit a parse tree produced by peterParser#conditionalop.
+    def exitConditionalop(self, ctx:peterParser.ConditionalopContext):
+        pass
+
+
     # Enter a parse tree produced by peterParser#list.
     def enterList(self, ctx:peterParser.ListContext):
         pass
 
     # Exit a parse tree produced by peterParser#list.
     def exitList(self, ctx:peterParser.ListContext):
+        pass
+
+
+    # Enter a parse tree produced by peterParser#rval.
+    def enterRval(self, ctx:peterParser.RvalContext):
+        pass
+
+    # Exit a parse tree produced by peterParser#rval.
+    def exitRval(self, ctx:peterParser.RvalContext):
+        pass
+
+
+    # Enter a parse tree produced by peterParser#arithop.
+    def enterArithop(self, ctx:peterParser.ArithopContext):
+        pass
+
+    # Exit a parse tree produced by peterParser#arithop.
+    def exitArithop(self, ctx:peterParser.ArithopContext):
+        pass
+
+
+    # Enter a parse tree produced by peterParser#asnop.
+    def enterAsnop(self, ctx:peterParser.AsnopContext):
+        pass
+
+    # Exit a parse tree produced by peterParser#asnop.
+    def exitAsnop(self, ctx:peterParser.AsnopContext):
         pass
 
 
