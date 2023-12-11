@@ -1,13 +1,22 @@
 lexer grammar peterLexer;
 
-fragment COMMA : ',';
-SERIAL : COMMA SPACE;
+TRUE : 'True';
+FALSE : 'False';
+IF : 'if';
+ELSE : 'else';
+ELIF : 'elif';
+WHILE : 'while';
+FOR : 'for';
+AND : 'and';
+OR : 'or';
+NOT : 'not';
 
 fragment DIGIT : [0-9];
 INTEGER : DIGIT+;
 FLOAT : DIGIT* '.' DIGIT+;
 
 fragment LETTER : [a-z] | [A-Z];
+COMMA : ',';
 CHAR : '\'' LETTER '\'';
 ID : (LETTER | DIGIT | '_')+;
 STRING : '"' ~["]* '"';
@@ -31,15 +40,6 @@ GTE : '>+';
 EQUIV : '==';
 NEQUIV : '!=';
 
-IF : 'if';
-ELSE : 'else';
-ELIF : 'elif';
-WHILE : 'while';
-FOR : 'for';
-AND : 'and';
-OR : 'or';
-NOT : 'not';
-
 OPENBRACK : '[';
 CLOSEBRACK : ']';
 OPENPAREN : '(';
@@ -48,6 +48,6 @@ CLOSEPAREN : ')';
 LINECMT : '#';
 BLCKCMT : '\'\'\'';
 
-SPACE : ' ';
+SPACE : ' ' -> skip;
 WHITESPACE : '\t';
 NEWLINE : '\n';

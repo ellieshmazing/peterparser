@@ -5,7 +5,7 @@ options {
 }
 
 start_
-    : block+
+    : block+ EOF
     ;
 
 block
@@ -17,15 +17,15 @@ statement
     ;
 
 assignment
-    : ID SPACE (ASN | ADDASN | SUBASN | MULTASN | DIVASN) SPACE (ID | CHAR | STRING | INTEGER | FLOAT | list | expr)
+    : ID  (ASN | ADDASN | SUBASN | MULTASN | DIVASN) (ID | CHAR | STRING | INTEGER | FLOAT | TRUE | FALSE | list | expr)
     ;
 
 expr
-    : (ID | INTEGER | FLOAT) SPACE (ADD | SUB | MULT | DIV | MOD) SPACE (ID | INTEGER | FLOAT | expr)
+    : (ID | INTEGER | FLOAT) (ADD | SUB | MULT | DIV | MOD) (ID | INTEGER | FLOAT | expr)
     ;
 
 list
-    : OPENBRACK (INTEGER SERIAL)+ INTEGER CLOSEBRACK
-    | OPENBRACK (FLOAT SERIAL)+ FLOAT CLOSEBRACK
-    | OPENBRACK (CHAR SERIAL)+ CHAR CLOSEBRACK
+    : OPENBRACK (INTEGER COMMA)+ INTEGER CLOSEBRACK
+    | OPENBRACK (FLOAT COMMA)+ FLOAT CLOSEBRACK
+    | OPENBRACK (CHAR COMMA)+ CHAR CLOSEBRACK
     ;
