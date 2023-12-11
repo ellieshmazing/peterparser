@@ -1,11 +1,16 @@
 lexer grammar peterLexer;
 
+fragment COMMA : ',';
+SERIAL : COMMA SPACE;
+
 fragment DIGIT : [0-9];
 INTEGER : DIGIT+;
 FLOAT : DIGIT* '.' DIGIT+;
 
 fragment LETTER : [a-z] | [A-Z];
+CHAR : '\'' LETTER '\'';
 ID : (LETTER | DIGIT | '_')+;
+STRING : '"' ~["]* '"';
 
 ADD : '+';
 SUB : '-';
@@ -35,8 +40,14 @@ AND : 'and';
 OR : 'or';
 NOT : 'not';
 
+OPENBRACK : '[';
+CLOSEBRACK : ']';
+OPENPAREN : '(';
+CLOSEPAREN : ')';
+
 LINECMT : '#';
 BLCKCMT : '\'\'\'';
 
+SPACE : ' ';
 WHITESPACE : '\t';
 NEWLINE : '\n';

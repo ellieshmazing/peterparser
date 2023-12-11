@@ -13,7 +13,5 @@ def main(argv):
     
     print(Trees.toStringTree(tree, None, parser))
 
-    
-
 if __name__ == '__main__':
     main(sys.argv)
