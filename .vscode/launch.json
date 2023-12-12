@@ -8,7 +8,7 @@
       "name": "Peter Parser visualization",
       "type": "antlr-debug",
       "request": "launch",
-      "input": "deliverable2.py",
+      "input": "deliverable3.py",
       "grammar": "src/peterParser.g4",
       "startRule": "start_",
       "printParseTree": true,

@@ -1,8 +1,3 @@
-assign1 = "20"
-assign2 = 123
-assign3 = 1.23
-assign4 = assign1
-
 arith_op1 = 1 + 2
 arith_op2 = 13 - 3
 arith_op3 = 10 / arith_op1
@@ -40,7 +35,7 @@ if var1 <= var2 and var3 == var4:
 else:
 	arith_op4 = 4.2 * 10
 	arith_op3 *= arith_op4
-	
+
 data = 0
 
 if var1 != var2 or var3 >= var4:

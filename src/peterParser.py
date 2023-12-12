@@ -10,67 +10,84 @@ else:
 
 def serializedATN():
     return [
-        4,1,42,171,2,0,7,0,2,1,7,1,2,2,7,2,2,3,7,3,2,4,7,4,2,5,7,5,2,6,7,
+        4,1,43,218,2,0,7,0,2,1,7,1,2,2,7,2,2,3,7,3,2,4,7,4,2,5,7,5,2,6,7,
         6,2,7,7,7,2,8,7,8,2,9,7,9,2,10,7,10,2,11,7,11,2,12,7,12,2,13,7,13,
-        1,0,4,0,30,8,0,11,0,12,0,31,1,0,1,0,1,1,4,1,37,8,1,11,1,12,1,38,
-        1,1,1,1,1,2,1,2,1,2,1,2,3,2,47,8,2,1,3,1,3,1,3,1,3,1,4,1,4,1,4,1,
-        4,1,4,1,4,3,4,59,8,4,1,5,1,5,1,5,1,5,1,5,1,5,1,5,1,5,1,5,1,5,1,5,
-        5,5,72,8,5,10,5,12,5,75,9,5,1,5,1,5,1,5,1,5,3,5,81,8,5,1,5,1,5,1,
-        6,1,6,4,6,87,8,6,11,6,12,6,88,1,7,1,7,1,7,1,7,1,7,1,7,1,7,1,7,1,
-        7,1,7,1,7,1,7,3,7,103,8,7,1,7,1,7,1,7,1,7,1,7,1,7,5,7,111,8,7,10,
-        7,12,7,114,9,7,1,8,1,8,1,8,1,8,1,8,1,8,1,8,3,8,123,8,8,1,9,1,9,1,
-        10,1,10,1,10,4,10,130,8,10,11,10,12,10,131,1,10,1,10,1,10,1,10,1,
-        10,4,10,139,8,10,11,10,12,10,140,1,10,1,10,1,10,1,10,1,10,4,10,148,
-        8,10,11,10,12,10,149,1,10,1,10,3,10,154,8,10,1,11,1,11,1,11,1,11,
-        1,11,1,11,1,11,1,11,1,11,3,11,165,8,11,1,12,1,12,1,13,1,13,1,13,
-        0,1,14,14,0,2,4,6,8,10,12,14,16,18,20,22,24,26,0,5,1,1,42,42,2,0,
-        11,12,15,15,1,0,27,32,1,0,17,21,1,0,22,26,189,0,29,1,0,0,0,2,36,
-        1,0,0,0,4,46,1,0,0,0,6,48,1,0,0,0,8,52,1,0,0,0,10,60,1,0,0,0,12,
-        86,1,0,0,0,14,102,1,0,0,0,16,122,1,0,0,0,18,124,1,0,0,0,20,153,1,
-        0,0,0,22,164,1,0,0,0,24,166,1,0,0,0,26,168,1,0,0,0,28,30,3,2,1,0,
-        29,28,1,0,0,0,30,31,1,0,0,0,31,29,1,0,0,0,31,32,1,0,0,0,32,33,1,
-        0,0,0,33,34,5,0,0,1,34,1,1,0,0,0,35,37,3,4,2,0,36,35,1,0,0,0,37,
-        38,1,0,0,0,38,36,1,0,0,0,38,39,1,0,0,0,39,40,1,0,0,0,40,41,7,0,0,
-        0,41,3,1,0,0,0,42,43,3,6,3,0,43,44,7,0,0,0,44,47,1,0,0,0,45,47,3,
-        10,5,0,46,42,1,0,0,0,46,45,1,0,0,0,47,5,1,0,0,0,48,49,5,15,0,0,49,
-        50,3,26,13,0,50,51,3,22,11,0,51,7,1,0,0,0,52,53,7,1,0,0,53,58,3,
-        24,12,0,54,59,5,15,0,0,55,59,5,11,0,0,56,59,5,12,0,0,57,59,3,8,4,
-        0,58,54,1,0,0,0,58,55,1,0,0,0,58,56,1,0,0,0,58,57,1,0,0,0,59,9,1,
-        0,0,0,60,61,5,3,0,0,61,62,3,14,7,0,62,63,5,40,0,0,63,64,5,42,0,0,
-        64,73,3,12,6,0,65,66,5,5,0,0,66,67,3,14,7,0,67,68,5,40,0,0,68,69,
-        5,42,0,0,69,70,3,12,6,0,70,72,1,0,0,0,71,65,1,0,0,0,72,75,1,0,0,
-        0,73,71,1,0,0,0,73,74,1,0,0,0,74,80,1,0,0,0,75,73,1,0,0,0,76,77,
-        5,4,0,0,77,78,5,40,0,0,78,79,5,42,0,0,79,81,3,12,6,0,80,76,1,0,0,
-        0,80,81,1,0,0,0,81,82,1,0,0,0,82,83,7,0,0,0,83,11,1,0,0,0,84,85,
-        5,41,0,0,85,87,3,4,2,0,86,84,1,0,0,0,87,88,1,0,0,0,88,86,1,0,0,0,
-        88,89,1,0,0,0,89,13,1,0,0,0,90,91,6,7,-1,0,91,103,5,1,0,0,92,103,
-        5,2,0,0,93,103,5,15,0,0,94,95,5,35,0,0,95,96,3,16,8,0,96,97,5,36,
-        0,0,97,103,1,0,0,0,98,99,3,16,8,0,99,100,3,18,9,0,100,101,3,16,8,
-        0,101,103,1,0,0,0,102,90,1,0,0,0,102,92,1,0,0,0,102,93,1,0,0,0,102,
-        94,1,0,0,0,102,98,1,0,0,0,103,112,1,0,0,0,104,105,10,2,0,0,105,106,
-        5,8,0,0,106,111,3,14,7,3,107,108,10,1,0,0,108,109,5,9,0,0,109,111,
-        3,14,7,2,110,104,1,0,0,0,110,107,1,0,0,0,111,114,1,0,0,0,112,110,
-        1,0,0,0,112,113,1,0,0,0,113,15,1,0,0,0,114,112,1,0,0,0,115,123,5,
-        15,0,0,116,123,5,11,0,0,117,123,5,12,0,0,118,123,5,1,0,0,119,123,
-        5,2,0,0,120,121,5,10,0,0,121,123,3,16,8,0,122,115,1,0,0,0,122,116,
-        1,0,0,0,122,117,1,0,0,0,122,118,1,0,0,0,122,119,1,0,0,0,122,120,
-        1,0,0,0,123,17,1,0,0,0,124,125,7,2,0,0,125,19,1,0,0,0,126,129,5,
-        33,0,0,127,128,5,11,0,0,128,130,5,13,0,0,129,127,1,0,0,0,130,131,
-        1,0,0,0,131,129,1,0,0,0,131,132,1,0,0,0,132,133,1,0,0,0,133,134,
-        5,11,0,0,134,154,5,34,0,0,135,138,5,33,0,0,136,137,5,12,0,0,137,
-        139,5,13,0,0,138,136,1,0,0,0,139,140,1,0,0,0,140,138,1,0,0,0,140,
-        141,1,0,0,0,141,142,1,0,0,0,142,143,5,12,0,0,143,154,5,34,0,0,144,
-        147,5,33,0,0,145,146,5,14,0,0,146,148,5,13,0,0,147,145,1,0,0,0,148,
-        149,1,0,0,0,149,147,1,0,0,0,149,150,1,0,0,0,150,151,1,0,0,0,151,
-        152,5,14,0,0,152,154,5,34,0,0,153,126,1,0,0,0,153,135,1,0,0,0,153,
-        144,1,0,0,0,154,21,1,0,0,0,155,165,5,15,0,0,156,165,5,14,0,0,157,
-        165,5,16,0,0,158,165,5,11,0,0,159,165,5,12,0,0,160,165,5,1,0,0,161,
-        165,5,2,0,0,162,165,3,20,10,0,163,165,3,8,4,0,164,155,1,0,0,0,164,
-        156,1,0,0,0,164,157,1,0,0,0,164,158,1,0,0,0,164,159,1,0,0,0,164,
-        160,1,0,0,0,164,161,1,0,0,0,164,162,1,0,0,0,164,163,1,0,0,0,165,
-        23,1,0,0,0,166,167,7,3,0,0,167,25,1,0,0,0,168,169,7,4,0,0,169,27,
-        1,0,0,0,16,31,38,46,58,73,80,88,102,110,112,122,131,140,149,153,
-        164
+        2,14,7,14,2,15,7,15,2,16,7,16,2,17,7,17,2,18,7,18,1,0,4,0,40,8,0,
+        11,0,12,0,41,1,0,1,0,1,1,4,1,47,8,1,11,1,12,1,48,1,1,1,1,1,2,1,2,
+        1,2,1,2,1,2,1,2,1,2,3,2,60,8,2,1,3,1,3,1,3,1,3,1,4,1,4,1,4,1,4,1,
+        4,1,4,3,4,72,8,4,1,5,1,5,1,5,1,5,1,5,5,5,79,8,5,10,5,12,5,82,9,5,
+        1,5,3,5,85,8,5,1,6,1,6,1,6,1,6,1,7,1,7,1,7,1,7,1,7,1,8,1,8,1,8,1,
+        8,1,8,1,8,1,8,1,8,1,8,1,8,1,8,1,8,3,8,108,8,8,1,9,1,9,1,9,1,9,1,
+        9,1,9,1,9,1,9,1,9,1,9,1,9,3,9,121,8,9,1,9,1,9,1,9,1,10,1,10,4,10,
+        128,8,10,11,10,12,10,129,1,11,1,11,1,11,1,11,1,11,1,11,1,11,1,11,
+        1,11,1,11,1,11,1,11,3,11,144,8,11,1,11,1,11,1,11,1,11,1,11,1,11,
+        5,11,152,8,11,10,11,12,11,155,9,11,1,12,1,12,1,12,1,12,1,12,1,12,
+        1,12,3,12,164,8,12,1,13,1,13,1,14,1,14,1,14,1,14,3,14,172,8,14,1,
+        15,1,15,1,15,4,15,177,8,15,11,15,12,15,178,1,15,1,15,1,15,1,15,1,
+        15,4,15,186,8,15,11,15,12,15,187,1,15,1,15,1,15,1,15,1,15,4,15,195,
+        8,15,11,15,12,15,196,1,15,1,15,3,15,201,8,15,1,16,1,16,1,16,1,16,
+        1,16,1,16,1,16,1,16,1,16,3,16,212,8,16,1,17,1,17,1,18,1,18,1,18,
+        0,1,22,19,0,2,4,6,8,10,12,14,16,18,20,22,24,26,28,30,32,34,36,0,
+        5,1,1,42,42,2,0,13,14,17,17,1,0,29,34,1,0,19,23,1,0,24,28,238,0,
+        39,1,0,0,0,2,46,1,0,0,0,4,59,1,0,0,0,6,61,1,0,0,0,8,65,1,0,0,0,10,
+        73,1,0,0,0,12,86,1,0,0,0,14,90,1,0,0,0,16,107,1,0,0,0,18,109,1,0,
+        0,0,20,125,1,0,0,0,22,143,1,0,0,0,24,163,1,0,0,0,26,165,1,0,0,0,
+        28,171,1,0,0,0,30,200,1,0,0,0,32,211,1,0,0,0,34,213,1,0,0,0,36,215,
+        1,0,0,0,38,40,3,2,1,0,39,38,1,0,0,0,40,41,1,0,0,0,41,39,1,0,0,0,
+        41,42,1,0,0,0,42,43,1,0,0,0,43,44,5,0,0,1,44,1,1,0,0,0,45,47,3,4,
+        2,0,46,45,1,0,0,0,47,48,1,0,0,0,48,46,1,0,0,0,48,49,1,0,0,0,49,50,
+        1,0,0,0,50,51,7,0,0,0,51,3,1,0,0,0,52,53,3,6,3,0,53,54,7,0,0,0,54,
+        60,1,0,0,0,55,60,3,28,14,0,56,60,3,10,5,0,57,60,3,16,8,0,58,60,3,
+        18,9,0,59,52,1,0,0,0,59,55,1,0,0,0,59,56,1,0,0,0,59,57,1,0,0,0,59,
+        58,1,0,0,0,60,5,1,0,0,0,61,62,5,17,0,0,62,63,3,36,18,0,63,64,3,32,
+        16,0,64,7,1,0,0,0,65,66,7,1,0,0,66,71,3,34,17,0,67,72,5,17,0,0,68,
+        72,5,13,0,0,69,72,5,14,0,0,70,72,3,8,4,0,71,67,1,0,0,0,71,68,1,0,
+        0,0,71,69,1,0,0,0,71,70,1,0,0,0,72,9,1,0,0,0,73,74,5,3,0,0,74,75,
+        3,22,11,0,75,76,5,39,0,0,76,80,3,20,10,0,77,79,3,14,7,0,78,77,1,
+        0,0,0,79,82,1,0,0,0,80,78,1,0,0,0,80,81,1,0,0,0,81,84,1,0,0,0,82,
+        80,1,0,0,0,83,85,3,12,6,0,84,83,1,0,0,0,84,85,1,0,0,0,85,11,1,0,
+        0,0,86,87,5,4,0,0,87,88,5,39,0,0,88,89,3,20,10,0,89,13,1,0,0,0,90,
+        91,5,5,0,0,91,92,3,22,11,0,92,93,5,39,0,0,93,94,3,20,10,0,94,15,
+        1,0,0,0,95,96,5,6,0,0,96,97,3,22,11,0,97,98,5,39,0,0,98,99,3,20,
+        10,0,99,108,1,0,0,0,100,101,5,6,0,0,101,102,5,37,0,0,102,103,3,22,
+        11,0,103,104,5,38,0,0,104,105,5,39,0,0,105,106,3,20,10,0,106,108,
+        1,0,0,0,107,95,1,0,0,0,107,100,1,0,0,0,108,17,1,0,0,0,109,110,5,
+        7,0,0,110,111,5,17,0,0,111,120,5,11,0,0,112,121,5,17,0,0,113,121,
+        3,30,15,0,114,115,5,12,0,0,115,116,5,37,0,0,116,117,5,13,0,0,117,
+        118,5,15,0,0,118,119,5,13,0,0,119,121,5,38,0,0,120,112,1,0,0,0,120,
+        113,1,0,0,0,120,114,1,0,0,0,121,122,1,0,0,0,122,123,5,39,0,0,123,
+        124,3,20,10,0,124,19,1,0,0,0,125,127,5,42,0,0,126,128,3,4,2,0,127,
+        126,1,0,0,0,128,129,1,0,0,0,129,127,1,0,0,0,129,130,1,0,0,0,130,
+        21,1,0,0,0,131,132,6,11,-1,0,132,144,5,1,0,0,133,144,5,2,0,0,134,
+        144,5,17,0,0,135,136,5,37,0,0,136,137,3,24,12,0,137,138,5,38,0,0,
+        138,144,1,0,0,0,139,140,3,24,12,0,140,141,3,26,13,0,141,142,3,24,
+        12,0,142,144,1,0,0,0,143,131,1,0,0,0,143,133,1,0,0,0,143,134,1,0,
+        0,0,143,135,1,0,0,0,143,139,1,0,0,0,144,153,1,0,0,0,145,146,10,2,
+        0,0,146,147,5,8,0,0,147,152,3,22,11,3,148,149,10,1,0,0,149,150,5,
+        9,0,0,150,152,3,22,11,2,151,145,1,0,0,0,151,148,1,0,0,0,152,155,
+        1,0,0,0,153,151,1,0,0,0,153,154,1,0,0,0,154,23,1,0,0,0,155,153,1,
+        0,0,0,156,164,5,17,0,0,157,164,5,13,0,0,158,164,5,14,0,0,159,164,
+        5,1,0,0,160,164,5,2,0,0,161,162,5,10,0,0,162,164,3,24,12,0,163,156,
+        1,0,0,0,163,157,1,0,0,0,163,158,1,0,0,0,163,159,1,0,0,0,163,160,
+        1,0,0,0,163,161,1,0,0,0,164,25,1,0,0,0,165,166,7,2,0,0,166,27,1,
+        0,0,0,167,168,5,40,0,0,168,172,5,42,0,0,169,170,5,41,0,0,170,172,
+        5,42,0,0,171,167,1,0,0,0,171,169,1,0,0,0,172,29,1,0,0,0,173,176,
+        5,35,0,0,174,175,5,13,0,0,175,177,5,15,0,0,176,174,1,0,0,0,177,178,
+        1,0,0,0,178,176,1,0,0,0,178,179,1,0,0,0,179,180,1,0,0,0,180,181,
+        5,13,0,0,181,201,5,36,0,0,182,185,5,35,0,0,183,184,5,14,0,0,184,
+        186,5,15,0,0,185,183,1,0,0,0,186,187,1,0,0,0,187,185,1,0,0,0,187,
+        188,1,0,0,0,188,189,1,0,0,0,189,190,5,14,0,0,190,201,5,36,0,0,191,
+        194,5,35,0,0,192,193,5,16,0,0,193,195,5,15,0,0,194,192,1,0,0,0,195,
+        196,1,0,0,0,196,194,1,0,0,0,196,197,1,0,0,0,197,198,1,0,0,0,198,
+        199,5,16,0,0,199,201,5,36,0,0,200,173,1,0,0,0,200,182,1,0,0,0,200,
+        191,1,0,0,0,201,31,1,0,0,0,202,212,5,17,0,0,203,212,5,16,0,0,204,
+        212,5,18,0,0,205,212,5,13,0,0,206,212,5,14,0,0,207,212,5,1,0,0,208,
+        212,5,2,0,0,209,212,3,30,15,0,210,212,3,8,4,0,211,202,1,0,0,0,211,
+        203,1,0,0,0,211,204,1,0,0,0,211,205,1,0,0,0,211,206,1,0,0,0,211,
+        207,1,0,0,0,211,208,1,0,0,0,211,209,1,0,0,0,211,210,1,0,0,0,212,
+        33,1,0,0,0,213,214,7,3,0,0,214,35,1,0,0,0,215,216,7,4,0,0,216,37,
+        1,0,0,0,19,41,48,59,71,80,84,107,120,129,143,151,153,163,171,178,
+        187,196,200,211
     ]
 
 class peterParser ( Parser ):
@@ -85,20 +102,21 @@ class peterParser ( Parser ):
 
     literalNames = [ "<INVALID>", "'True'", "'False'", "'if'", "'else'", 
                      "'elif'", "'while'", "'for'", "'and'", "'or'", "'not'", 
-                     "<INVALID>", "<INVALID>", "','", "<INVALID>", "<INVALID>", 
-                     "<INVALID>", "'+'", "'-'", "'*'", "'/'", "'%'", "'='", 
-                     "'+='", "'-='", "'*='", "'/='", "'<'", "'<='", "'>'", 
-                     "'>='", "'=='", "'!='", "'['", "']'", "'('", "')'", 
-                     "'#'", "'''''", "' '", "':'", "'\\t'", "'\\n'" ]
+                     "'in'", "'range'", "<INVALID>", "<INVALID>", "','", 
+                     "<INVALID>", "<INVALID>", "<INVALID>", "'+'", "'-'", 
+                     "'*'", "'/'", "'%'", "'='", "'+='", "'-='", "'*='", 
+                     "'/='", "'<'", "'<='", "'>'", "'>='", "'=='", "'!='", 
+                     "'['", "']'", "'('", "')'", "':'", "<INVALID>", "<INVALID>", 
+                     "'\\n'" ]
 
     symbolicNames = [ "<INVALID>", "TRUE", "FALSE", "IF", "ELSE", "ELIF", 
-                      "WHILE", "FOR", "AND", "OR", "NOT", "INTEGER", "FLOAT", 
-                      "COMMA", "CHAR", "ID", "STRING", "ADD", "SUB", "MULT", 
-                      "DIV", "MOD", "ASN", "ADDASN", "SUBASN", "MULTASN", 
-                      "DIVASN", "LT", "LTE", "GT", "GTE", "EQUIV", "NEQUIV", 
-                      "OPENBRACK", "CLOSEBRACK", "OPENPAREN", "CLOSEPAREN", 
-                      "LINECMT", "BLCKCMT", "SPACE", "COLON", "WHITESPACE", 
-                      "NEWLINE" ]
+                      "WHILE", "FOR", "AND", "OR", "NOT", "IN", "RANGE", 
+                      "INTEGER", "FLOAT", "COMMA", "CHAR", "ID", "STRING", 
+                      "ADD", "SUB", "MULT", "DIV", "MOD", "ASN", "ADDASN", 
+                      "SUBASN", "MULTASN", "DIVASN", "LT", "LTE", "GT", 
+                      "GTE", "EQUIV", "NEQUIV", "OPENBRACK", "CLOSEBRACK", 
+                      "OPENPAREN", "CLOSEPAREN", "COLON", "LINECMT", "BLCKCMT", 
+                      "NL", "WHITESPACE" ]
 
     RULE_start_ = 0
     RULE_block = 1
@@ -106,18 +124,24 @@ class peterParser ( Parser ):
     RULE_assignment = 3
     RULE_expr = 4
     RULE_ifblock = 5
-    RULE_body = 6
-    RULE_conditional = 7
-    RULE_conditionalval = 8
-    RULE_conditionalop = 9
-    RULE_list = 10
-    RULE_rval = 11
-    RULE_arithop = 12
-    RULE_asnop = 13
+    RULE_elseblock = 6
+    RULE_elifblock = 7
+    RULE_whileblock = 8
+    RULE_forblock = 9
+    RULE_body = 10
+    RULE_conditional = 11
+    RULE_conditionalval = 12
+    RULE_conditionalop = 13
+    RULE_comment = 14
+    RULE_list = 15
+    RULE_rval = 16
+    RULE_arithop = 17
+    RULE_asnop = 18
 
     ruleNames =  [ "start_", "block", "statement", "assignment", "expr", 
-                   "ifblock", "body", "conditional", "conditionalval", "conditionalop", 
-                   "list", "rval", "arithop", "asnop" ]
+                   "ifblock", "elseblock", "elifblock", "whileblock", "forblock", 
+                   "body", "conditional", "conditionalval", "conditionalop", 
+                   "comment", "list", "rval", "arithop", "asnop" ]
 
     EOF = Token.EOF
     TRUE=1
@@ -130,38 +154,39 @@ class peterParser ( Parser ):
     AND=8
     OR=9
     NOT=10
-    INTEGER=11
-    FLOAT=12
-    COMMA=13
-    CHAR=14
-    ID=15
-    STRING=16
-    ADD=17
-    SUB=18
-    MULT=19
-    DIV=20
-    MOD=21
-    ASN=22
-    ADDASN=23
-    SUBASN=24
-    MULTASN=25
-    DIVASN=26
-    LT=27
-    LTE=28
-    GT=29
-    GTE=30
-    EQUIV=31
-    NEQUIV=32
-    OPENBRACK=33
-    CLOSEBRACK=34
-    OPENPAREN=35
-    CLOSEPAREN=36
-    LINECMT=37
-    BLCKCMT=38
-    SPACE=39
-    COLON=40
-    WHITESPACE=41
-    NEWLINE=42
+    IN=11
+    RANGE=12
+    INTEGER=13
+    FLOAT=14
+    COMMA=15
+    CHAR=16
+    ID=17
+    STRING=18
+    ADD=19
+    SUB=20
+    MULT=21
+    DIV=22
+    MOD=23
+    ASN=24
+    ADDASN=25
+    SUBASN=26
+    MULTASN=27
+    DIVASN=28
+    LT=29
+    LTE=30
+    GT=31
+    GTE=32
+    EQUIV=33
+    NEQUIV=34
+    OPENBRACK=35
+    CLOSEBRACK=36
+    OPENPAREN=37
+    CLOSEPAREN=38
+    COLON=39
+    LINECMT=40
+    BLCKCMT=41
+    NL=42
+    WHITESPACE=43
 
     def __init__(self, input:TokenStream, output:TextIO = sys.stdout):
         super().__init__(input, output)
@@ -210,19 +235,19 @@ class peterParser ( Parser ):
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 29 
+            self.state = 39 
             self._errHandler.sync(self)
             _la = self._input.LA(1)
             while True:
-                self.state = 28
+                self.state = 38
                 self.block()
-                self.state = 31 
+                self.state = 41 
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
-                if not (_la==3 or _la==15):
+                if not ((((_la) & ~0x3f) == 0 and ((1 << _la) & 3298535014600) != 0)):
                     break
 
-            self.state = 33
+            self.state = 43
             self.match(peterParser.EOF)
         except RecognitionException as re:
             localctx.exception = re
@@ -240,8 +265,8 @@ class peterParser ( Parser ):
             super().__init__(parent, invokingState)
             self.parser = parser
 
-        def NEWLINE(self):
-            return self.getToken(peterParser.NEWLINE, 0)
+        def NL(self):
+            return self.getToken(peterParser.NL, 0)
 
         def EOF(self):
             return self.getToken(peterParser.EOF, 0)
@@ -274,19 +299,19 @@ class peterParser ( Parser ):
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 36 
+            self.state = 46 
             self._errHandler.sync(self)
             _la = self._input.LA(1)
             while True:
-                self.state = 35
+                self.state = 45
                 self.statement()
-                self.state = 38 
+                self.state = 48 
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
-                if not (_la==3 or _la==15):
+                if not ((((_la) & ~0x3f) == 0 and ((1 << _la) & 3298535014600) != 0)):
                     break
 
-            self.state = 40
+            self.state = 50
             _la = self._input.LA(1)
             if not(_la==-1 or _la==42):
                 self._errHandler.recoverInline(self)
@@ -313,14 +338,26 @@ class peterParser ( Parser ):
             return self.getTypedRuleContext(peterParser.AssignmentContext,0)
 
 
-        def NEWLINE(self):
-            return self.getToken(peterParser.NEWLINE, 0)
+        def NL(self):
+            return self.getToken(peterParser.NL, 0)
 
         def EOF(self):
             return self.getToken(peterParser.EOF, 0)
 
+        def comment(self):
+            return self.getTypedRuleContext(peterParser.CommentContext,0)
+
+
         def ifblock(self):
             return self.getTypedRuleContext(peterParser.IfblockContext,0)
+
+
+        def whileblock(self):
+            return self.getTypedRuleContext(peterParser.WhileblockContext,0)
+
+
+        def forblock(self):
+            return self.getTypedRuleContext(peterParser.ForblockContext,0)
 
 
         def getRuleIndex(self):
@@ -343,14 +380,14 @@ class peterParser ( Parser ):
         self.enterRule(localctx, 4, self.RULE_statement)
         self._la = 0 # Token type
         try:
-            self.state = 46
+            self.state = 59
             self._errHandler.sync(self)
             token = self._input.LA(1)
-            if token in [15]:
+            if token in [17]:
                 self.enterOuterAlt(localctx, 1)
-                self.state = 42
+                self.state = 52
                 self.assignment()
-                self.state = 43
+                self.state = 53
                 _la = self._input.LA(1)
                 if not(_la==-1 or _la==42):
                     self._errHandler.recoverInline(self)
@@ -358,10 +395,25 @@ class peterParser ( Parser ):
                     self._errHandler.reportMatch(self)
                     self.consume()
                 pass
-            elif token in [3]:
+            elif token in [40, 41]:
                 self.enterOuterAlt(localctx, 2)
-                self.state = 45
+                self.state = 55
+                self.comment()
+                pass
+            elif token in [3]:
+                self.enterOuterAlt(localctx, 3)
+                self.state = 56
                 self.ifblock()
+                pass
+            elif token in [6]:
+                self.enterOuterAlt(localctx, 4)
+                self.state = 57
+                self.whileblock()
+                pass
+            elif token in [7]:
+                self.enterOuterAlt(localctx, 5)
+                self.state = 58
+                self.forblock()
                 pass
             else:
                 raise NoViableAltException(self)
@@ -413,11 +465,11 @@ class peterParser ( Parser ):
         self.enterRule(localctx, 6, self.RULE_assignment)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 48
+            self.state = 61
             self.match(peterParser.ID)
-            self.state = 49
+            self.state = 62
             self.asnop()
-            self.state = 50
+            self.state = 63
             self.rval()
         except RecognitionException as re:
             localctx.exception = re
@@ -482,35 +534,35 @@ class peterParser ( Parser ):
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 52
+            self.state = 65
             _la = self._input.LA(1)
-            if not((((_la) & ~0x3f) == 0 and ((1 << _la) & 38912) != 0)):
+            if not((((_la) & ~0x3f) == 0 and ((1 << _la) & 155648) != 0)):
                 self._errHandler.recoverInline(self)
             else:
                 self._errHandler.reportMatch(self)
                 self.consume()
-            self.state = 53
+            self.state = 66
             self.arithop()
-            self.state = 58
+            self.state = 71
             self._errHandler.sync(self)
             la_ = self._interp.adaptivePredict(self._input,3,self._ctx)
             if la_ == 1:
-                self.state = 54
+                self.state = 67
                 self.match(peterParser.ID)
                 pass
 
             elif la_ == 2:
-                self.state = 55
+                self.state = 68
                 self.match(peterParser.INTEGER)
                 pass
 
             elif la_ == 3:
-                self.state = 56
+                self.state = 69
                 self.match(peterParser.FLOAT)
                 pass
 
             elif la_ == 4:
-                self.state = 57
+                self.state = 70
                 self.expr()
                 pass
 
@@ -534,43 +586,27 @@ class peterParser ( Parser ):
         def IF(self):
             return self.getToken(peterParser.IF, 0)
 
-        def conditional(self, i:int=None):
+        def conditional(self):
+            return self.getTypedRuleContext(peterParser.ConditionalContext,0)
+
+
+        def COLON(self):
+            return self.getToken(peterParser.COLON, 0)
+
+        def body(self):
+            return self.getTypedRuleContext(peterParser.BodyContext,0)
+
+
+        def elifblock(self, i:int=None):
             if i is None:
-                return self.getTypedRuleContexts(peterParser.ConditionalContext)
+                return self.getTypedRuleContexts(peterParser.ElifblockContext)
             else:
-                return self.getTypedRuleContext(peterParser.ConditionalContext,i)
+                return self.getTypedRuleContext(peterParser.ElifblockContext,i)
 
 
-        def COLON(self, i:int=None):
-            if i is None:
-                return self.getTokens(peterParser.COLON)
-            else:
-                return self.getToken(peterParser.COLON, i)
+        def elseblock(self):
+            return self.getTypedRuleContext(peterParser.ElseblockContext,0)
 
-        def NEWLINE(self, i:int=None):
-            if i is None:
-                return self.getTokens(peterParser.NEWLINE)
-            else:
-                return self.getToken(peterParser.NEWLINE, i)
-
-        def body(self, i:int=None):
-            if i is None:
-                return self.getTypedRuleContexts(peterParser.BodyContext)
-            else:
-                return self.getTypedRuleContext(peterParser.BodyContext,i)
-
-
-        def EOF(self):
-            return self.getToken(peterParser.EOF, 0)
-
-        def ELIF(self, i:int=None):
-            if i is None:
-                return self.getTokens(peterParser.ELIF)
-            else:
-                return self.getToken(peterParser.ELIF, i)
-
-        def ELSE(self):
-            return self.getToken(peterParser.ELSE, 0)
 
         def getRuleIndex(self):
             return peterParser.RULE_ifblock
@@ -590,58 +626,347 @@ class peterParser ( Parser ):
 
         localctx = peterParser.IfblockContext(self, self._ctx, self.state)
         self.enterRule(localctx, 10, self.RULE_ifblock)
-        self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 60
-            self.match(peterParser.IF)
-            self.state = 61
-            self.conditional(0)
-            self.state = 62
-            self.match(peterParser.COLON)
-            self.state = 63
-            self.match(peterParser.NEWLINE)
-            self.state = 64
-            self.body()
             self.state = 73
-            self._errHandler.sync(self)
-            _la = self._input.LA(1)
-            while _la==5:
-                self.state = 65
-                self.match(peterParser.ELIF)
-                self.state = 66
-                self.conditional(0)
-                self.state = 67
-                self.match(peterParser.COLON)
-                self.state = 68
-                self.match(peterParser.NEWLINE)
-                self.state = 69
-                self.body()
-                self.state = 75
-                self._errHandler.sync(self)
-                _la = self._input.LA(1)
-
+            self.match(peterParser.IF)
+            self.state = 74
+            self.conditional(0)
+            self.state = 75
+            self.match(peterParser.COLON)
+            self.state = 76
+            self.body()
             self.state = 80
             self._errHandler.sync(self)
-            _la = self._input.LA(1)
-            if _la==4:
-                self.state = 76
-                self.match(peterParser.ELSE)
-                self.state = 77
+            _alt = self._interp.adaptivePredict(self._input,4,self._ctx)
+            while _alt!=2 and _alt!=ATN.INVALID_ALT_NUMBER:
+                if _alt==1:
+                    self.state = 77
+                    self.elifblock() 
+                self.state = 82
+                self._errHandler.sync(self)
+                _alt = self._interp.adaptivePredict(self._input,4,self._ctx)
+
+            self.state = 84
+            self._errHandler.sync(self)
+            la_ = self._interp.adaptivePredict(self._input,5,self._ctx)
+            if la_ == 1:
+                self.state = 83
+                self.elseblock()
+
+
+        except RecognitionException as re:
+            localctx.exception = re
+            self._errHandler.reportError(self, re)
+            self._errHandler.recover(self, re)
+        finally:
+            self.exitRule()
+        return localctx
+
+
+    class ElseblockContext(ParserRuleContext):
+        __slots__ = 'parser'
+
+        def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
+            super().__init__(parent, invokingState)
+            self.parser = parser
+
+        def ELSE(self):
+            return self.getToken(peterParser.ELSE, 0)
+
+        def COLON(self):
+            return self.getToken(peterParser.COLON, 0)
+
+        def body(self):
+            return self.getTypedRuleContext(peterParser.BodyContext,0)
+
+
+        def getRuleIndex(self):
+            return peterParser.RULE_elseblock
+
+        def enterRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "enterElseblock" ):
+                listener.enterElseblock(self)
+
+        def exitRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "exitElseblock" ):
+                listener.exitElseblock(self)
+
+
+
+
+    def elseblock(self):
+
+        localctx = peterParser.ElseblockContext(self, self._ctx, self.state)
+        self.enterRule(localctx, 12, self.RULE_elseblock)
+        try:
+            self.enterOuterAlt(localctx, 1)
+            self.state = 86
+            self.match(peterParser.ELSE)
+            self.state = 87
+            self.match(peterParser.COLON)
+            self.state = 88
+            self.body()
+        except RecognitionException as re:
+            localctx.exception = re
+            self._errHandler.reportError(self, re)
+            self._errHandler.recover(self, re)
+        finally:
+            self.exitRule()
+        return localctx
+
+
+    class ElifblockContext(ParserRuleContext):
+        __slots__ = 'parser'
+
+        def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
+            super().__init__(parent, invokingState)
+            self.parser = parser
+
+        def ELIF(self):
+            return self.getToken(peterParser.ELIF, 0)
+
+        def conditional(self):
+            return self.getTypedRuleContext(peterParser.ConditionalContext,0)
+
+
+        def COLON(self):
+            return self.getToken(peterParser.COLON, 0)
+
+        def body(self):
+            return self.getTypedRuleContext(peterParser.BodyContext,0)
+
+
+        def getRuleIndex(self):
+            return peterParser.RULE_elifblock
+
+        def enterRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "enterElifblock" ):
+                listener.enterElifblock(self)
+
+        def exitRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "exitElifblock" ):
+                listener.exitElifblock(self)
+
+
+
+
+    def elifblock(self):
+
+        localctx = peterParser.ElifblockContext(self, self._ctx, self.state)
+        self.enterRule(localctx, 14, self.RULE_elifblock)
+        try:
+            self.enterOuterAlt(localctx, 1)
+            self.state = 90
+            self.match(peterParser.ELIF)
+            self.state = 91
+            self.conditional(0)
+            self.state = 92
+            self.match(peterParser.COLON)
+            self.state = 93
+            self.body()
+        except RecognitionException as re:
+            localctx.exception = re
+            self._errHandler.reportError(self, re)
+            self._errHandler.recover(self, re)
+        finally:
+            self.exitRule()
+        return localctx
+
+
+    class WhileblockContext(ParserRuleContext):
+        __slots__ = 'parser'
+
+        def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
+            super().__init__(parent, invokingState)
+            self.parser = parser
+
+        def WHILE(self):
+            return self.getToken(peterParser.WHILE, 0)
+
+        def conditional(self):
+            return self.getTypedRuleContext(peterParser.ConditionalContext,0)
+
+
+        def COLON(self):
+            return self.getToken(peterParser.COLON, 0)
+
+        def body(self):
+            return self.getTypedRuleContext(peterParser.BodyContext,0)
+
+
+        def OPENPAREN(self):
+            return self.getToken(peterParser.OPENPAREN, 0)
+
+        def CLOSEPAREN(self):
+            return self.getToken(peterParser.CLOSEPAREN, 0)
+
+        def getRuleIndex(self):
+            return peterParser.RULE_whileblock
+
+        def enterRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "enterWhileblock" ):
+                listener.enterWhileblock(self)
+
+        def exitRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "exitWhileblock" ):
+                listener.exitWhileblock(self)
+
+
+
+
+    def whileblock(self):
+
+        localctx = peterParser.WhileblockContext(self, self._ctx, self.state)
+        self.enterRule(localctx, 16, self.RULE_whileblock)
+        try:
+            self.state = 107
+            self._errHandler.sync(self)
+            la_ = self._interp.adaptivePredict(self._input,6,self._ctx)
+            if la_ == 1:
+                self.enterOuterAlt(localctx, 1)
+                self.state = 95
+                self.match(peterParser.WHILE)
+                self.state = 96
+                self.conditional(0)
+                self.state = 97
                 self.match(peterParser.COLON)
-                self.state = 78
-                self.match(peterParser.NEWLINE)
-                self.state = 79
+                self.state = 98
                 self.body()
+                pass
+
+            elif la_ == 2:
+                self.enterOuterAlt(localctx, 2)
+                self.state = 100
+                self.match(peterParser.WHILE)
+                self.state = 101
+                self.match(peterParser.OPENPAREN)
+                self.state = 102
+                self.conditional(0)
+                self.state = 103
+                self.match(peterParser.CLOSEPAREN)
+                self.state = 104
+                self.match(peterParser.COLON)
+                self.state = 105
+                self.body()
+                pass
 
 
-            self.state = 82
-            _la = self._input.LA(1)
-            if not(_la==-1 or _la==42):
-                self._errHandler.recoverInline(self)
+        except RecognitionException as re:
+            localctx.exception = re
+            self._errHandler.reportError(self, re)
+            self._errHandler.recover(self, re)
+        finally:
+            self.exitRule()
+        return localctx
+
+
+    class ForblockContext(ParserRuleContext):
+        __slots__ = 'parser'
+
+        def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
+            super().__init__(parent, invokingState)
+            self.parser = parser
+
+        def FOR(self):
+            return self.getToken(peterParser.FOR, 0)
+
+        def ID(self, i:int=None):
+            if i is None:
+                return self.getTokens(peterParser.ID)
             else:
-                self._errHandler.reportMatch(self)
-                self.consume()
+                return self.getToken(peterParser.ID, i)
+
+        def IN(self):
+            return self.getToken(peterParser.IN, 0)
+
+        def COLON(self):
+            return self.getToken(peterParser.COLON, 0)
+
+        def body(self):
+            return self.getTypedRuleContext(peterParser.BodyContext,0)
+
+
+        def list_(self):
+            return self.getTypedRuleContext(peterParser.ListContext,0)
+
+
+        def RANGE(self):
+            return self.getToken(peterParser.RANGE, 0)
+
+        def OPENPAREN(self):
+            return self.getToken(peterParser.OPENPAREN, 0)
+
+        def INTEGER(self, i:int=None):
+            if i is None:
+                return self.getTokens(peterParser.INTEGER)
+            else:
+                return self.getToken(peterParser.INTEGER, i)
+
+        def COMMA(self):
+            return self.getToken(peterParser.COMMA, 0)
+
+        def CLOSEPAREN(self):
+            return self.getToken(peterParser.CLOSEPAREN, 0)
+
+        def getRuleIndex(self):
+            return peterParser.RULE_forblock
+
+        def enterRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "enterForblock" ):
+                listener.enterForblock(self)
+
+        def exitRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "exitForblock" ):
+                listener.exitForblock(self)
+
+
+
+
+    def forblock(self):
+
+        localctx = peterParser.ForblockContext(self, self._ctx, self.state)
+        self.enterRule(localctx, 18, self.RULE_forblock)
+        try:
+            self.enterOuterAlt(localctx, 1)
+            self.state = 109
+            self.match(peterParser.FOR)
+            self.state = 110
+            self.match(peterParser.ID)
+            self.state = 111
+            self.match(peterParser.IN)
+            self.state = 120
+            self._errHandler.sync(self)
+            token = self._input.LA(1)
+            if token in [17]:
+                self.state = 112
+                self.match(peterParser.ID)
+                pass
+            elif token in [35]:
+                self.state = 113
+                self.list_()
+                pass
+            elif token in [12]:
+                self.state = 114
+                self.match(peterParser.RANGE)
+                self.state = 115
+                self.match(peterParser.OPENPAREN)
+                self.state = 116
+                self.match(peterParser.INTEGER)
+                self.state = 117
+                self.match(peterParser.COMMA)
+                self.state = 118
+                self.match(peterParser.INTEGER)
+                self.state = 119
+                self.match(peterParser.CLOSEPAREN)
+                pass
+            else:
+                raise NoViableAltException(self)
+
+            self.state = 122
+            self.match(peterParser.COLON)
+            self.state = 123
+            self.body()
         except RecognitionException as re:
             localctx.exception = re
             self._errHandler.reportError(self, re)
@@ -658,11 +983,8 @@ class peterParser ( Parser ):
             super().__init__(parent, invokingState)
             self.parser = parser
 
-        def WHITESPACE(self, i:int=None):
-            if i is None:
-                return self.getTokens(peterParser.WHITESPACE)
-            else:
-                return self.getToken(peterParser.WHITESPACE, i)
+        def NL(self):
+            return self.getToken(peterParser.NL, 0)
 
         def statement(self, i:int=None):
             if i is None:
@@ -688,23 +1010,24 @@ class peterParser ( Parser ):
     def body(self):
 
         localctx = peterParser.BodyContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 12, self.RULE_body)
-        self._la = 0 # Token type
+        self.enterRule(localctx, 20, self.RULE_body)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 86 
+            self.state = 125
+            self.match(peterParser.NL)
+            self.state = 127 
             self._errHandler.sync(self)
-            _la = self._input.LA(1)
-            while True:
-                self.state = 84
-                self.match(peterParser.WHITESPACE)
-                self.state = 85
-                self.statement()
-                self.state = 88 
+            _alt = 1
+            while _alt!=2 and _alt!=ATN.INVALID_ALT_NUMBER:
+                if _alt == 1:
+                    self.state = 126
+                    self.statement()
+
+                else:
+                    raise NoViableAltException(self)
+                self.state = 129 
                 self._errHandler.sync(self)
-                _la = self._input.LA(1)
-                if not (_la==41):
-                    break
+                _alt = self._interp.adaptivePredict(self._input,8,self._ctx)
 
         except RecognitionException as re:
             localctx.exception = re
@@ -779,89 +1102,89 @@ class peterParser ( Parser ):
         _parentState = self.state
         localctx = peterParser.ConditionalContext(self, self._ctx, _parentState)
         _prevctx = localctx
-        _startState = 14
-        self.enterRecursionRule(localctx, 14, self.RULE_conditional, _p)
+        _startState = 22
+        self.enterRecursionRule(localctx, 22, self.RULE_conditional, _p)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 102
+            self.state = 143
             self._errHandler.sync(self)
-            la_ = self._interp.adaptivePredict(self._input,7,self._ctx)
+            la_ = self._interp.adaptivePredict(self._input,9,self._ctx)
             if la_ == 1:
-                self.state = 91
+                self.state = 132
                 self.match(peterParser.TRUE)
                 pass
 
             elif la_ == 2:
-                self.state = 92
+                self.state = 133
                 self.match(peterParser.FALSE)
                 pass
 
             elif la_ == 3:
-                self.state = 93
+                self.state = 134
                 self.match(peterParser.ID)
                 pass
 
             elif la_ == 4:
-                self.state = 94
+                self.state = 135
                 self.match(peterParser.OPENPAREN)
-                self.state = 95
+                self.state = 136
                 self.conditionalval()
-                self.state = 96
+                self.state = 137
                 self.match(peterParser.CLOSEPAREN)
                 pass
 
             elif la_ == 5:
-                self.state = 98
+                self.state = 139
                 self.conditionalval()
-                self.state = 99
+                self.state = 140
                 self.conditionalop()
-                self.state = 100
+                self.state = 141
                 self.conditionalval()
                 pass
 
 
             self._ctx.stop = self._input.LT(-1)
-            self.state = 112
+            self.state = 153
             self._errHandler.sync(self)
-            _alt = self._interp.adaptivePredict(self._input,9,self._ctx)
+            _alt = self._interp.adaptivePredict(self._input,11,self._ctx)
             while _alt!=2 and _alt!=ATN.INVALID_ALT_NUMBER:
                 if _alt==1:
                     if self._parseListeners is not None:
                         self.triggerExitRuleEvent()
                     _prevctx = localctx
-                    self.state = 110
+                    self.state = 151
                     self._errHandler.sync(self)
-                    la_ = self._interp.adaptivePredict(self._input,8,self._ctx)
+                    la_ = self._interp.adaptivePredict(self._input,10,self._ctx)
                     if la_ == 1:
                         localctx = peterParser.ConditionalContext(self, _parentctx, _parentState)
                         self.pushNewRecursionContext(localctx, _startState, self.RULE_conditional)
-                        self.state = 104
+                        self.state = 145
                         if not self.precpred(self._ctx, 2):
                             from antlr4.error.Errors import FailedPredicateException
                             raise FailedPredicateException(self, "self.precpred(self._ctx, 2)")
-                        self.state = 105
+                        self.state = 146
                         self.match(peterParser.AND)
-                        self.state = 106
+                        self.state = 147
                         self.conditional(3)
                         pass
 
                     elif la_ == 2:
                         localctx = peterParser.ConditionalContext(self, _parentctx, _parentState)
                         self.pushNewRecursionContext(localctx, _startState, self.RULE_conditional)
-                        self.state = 107
+                        self.state = 148
                         if not self.precpred(self._ctx, 1):
                             from antlr4.error.Errors import FailedPredicateException
                             raise FailedPredicateException(self, "self.precpred(self._ctx, 1)")
-                        self.state = 108
+                        self.state = 149
                         self.match(peterParser.OR)
-                        self.state = 109
+                        self.state = 150
                         self.conditional(2)
                         pass
 
              
-                self.state = 114
+                self.state = 155
                 self._errHandler.sync(self)
-                _alt = self._interp.adaptivePredict(self._input,9,self._ctx)
+                _alt = self._interp.adaptivePredict(self._input,11,self._ctx)
 
         except RecognitionException as re:
             localctx.exception = re
@@ -918,41 +1241,41 @@ class peterParser ( Parser ):
     def conditionalval(self):
 
         localctx = peterParser.ConditionalvalContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 16, self.RULE_conditionalval)
+        self.enterRule(localctx, 24, self.RULE_conditionalval)
         try:
-            self.state = 122
+            self.state = 163
             self._errHandler.sync(self)
             token = self._input.LA(1)
-            if token in [15]:
+            if token in [17]:
                 self.enterOuterAlt(localctx, 1)
-                self.state = 115
+                self.state = 156
                 self.match(peterParser.ID)
                 pass
-            elif token in [11]:
+            elif token in [13]:
                 self.enterOuterAlt(localctx, 2)
-                self.state = 116
+                self.state = 157
                 self.match(peterParser.INTEGER)
                 pass
-            elif token in [12]:
+            elif token in [14]:
                 self.enterOuterAlt(localctx, 3)
-                self.state = 117
+                self.state = 158
                 self.match(peterParser.FLOAT)
                 pass
             elif token in [1]:
                 self.enterOuterAlt(localctx, 4)
-                self.state = 118
+                self.state = 159
                 self.match(peterParser.TRUE)
                 pass
             elif token in [2]:
                 self.enterOuterAlt(localctx, 5)
-                self.state = 119
+                self.state = 160
                 self.match(peterParser.FALSE)
                 pass
             elif token in [10]:
                 self.enterOuterAlt(localctx, 6)
-                self.state = 120
+                self.state = 161
                 self.match(peterParser.NOT)
-                self.state = 121
+                self.state = 162
                 self.conditionalval()
                 pass
             else:
@@ -1009,17 +1332,81 @@ class peterParser ( Parser ):
     def conditionalop(self):
 
         localctx = peterParser.ConditionalopContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 18, self.RULE_conditionalop)
+        self.enterRule(localctx, 26, self.RULE_conditionalop)
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 124
+            self.state = 165
             _la = self._input.LA(1)
-            if not((((_la) & ~0x3f) == 0 and ((1 << _la) & 8455716864) != 0)):
+            if not((((_la) & ~0x3f) == 0 and ((1 << _la) & 33822867456) != 0)):
                 self._errHandler.recoverInline(self)
             else:
                 self._errHandler.reportMatch(self)
                 self.consume()
+        except RecognitionException as re:
+            localctx.exception = re
+            self._errHandler.reportError(self, re)
+            self._errHandler.recover(self, re)
+        finally:
+            self.exitRule()
+        return localctx
+
+
+    class CommentContext(ParserRuleContext):
+        __slots__ = 'parser'
+
+        def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
+            super().__init__(parent, invokingState)
+            self.parser = parser
+
+        def LINECMT(self):
+            return self.getToken(peterParser.LINECMT, 0)
+
+        def NL(self):
+            return self.getToken(peterParser.NL, 0)
+
+        def BLCKCMT(self):
+            return self.getToken(peterParser.BLCKCMT, 0)
+
+        def getRuleIndex(self):
+            return peterParser.RULE_comment
+
+        def enterRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "enterComment" ):
+                listener.enterComment(self)
+
+        def exitRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "exitComment" ):
+                listener.exitComment(self)
+
+
+
+
+    def comment(self):
+
+        localctx = peterParser.CommentContext(self, self._ctx, self.state)
+        self.enterRule(localctx, 28, self.RULE_comment)
+        try:
+            self.state = 171
+            self._errHandler.sync(self)
+            token = self._input.LA(1)
+            if token in [40]:
+                self.enterOuterAlt(localctx, 1)
+                self.state = 167
+                self.match(peterParser.LINECMT)
+                self.state = 168
+                self.match(peterParser.NL)
+                pass
+            elif token in [41]:
+                self.enterOuterAlt(localctx, 2)
+                self.state = 169
+                self.match(peterParser.BLCKCMT)
+                self.state = 170
+                self.match(peterParser.NL)
+                pass
+            else:
+                raise NoViableAltException(self)
+
         except RecognitionException as re:
             localctx.exception = re
             self._errHandler.reportError(self, re)
@@ -1083,86 +1470,86 @@ class peterParser ( Parser ):
     def list_(self):
 
         localctx = peterParser.ListContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 20, self.RULE_list)
+        self.enterRule(localctx, 30, self.RULE_list)
         try:
-            self.state = 153
+            self.state = 200
             self._errHandler.sync(self)
-            la_ = self._interp.adaptivePredict(self._input,14,self._ctx)
+            la_ = self._interp.adaptivePredict(self._input,17,self._ctx)
             if la_ == 1:
                 self.enterOuterAlt(localctx, 1)
-                self.state = 126
+                self.state = 173
                 self.match(peterParser.OPENBRACK)
-                self.state = 129 
+                self.state = 176 
                 self._errHandler.sync(self)
                 _alt = 1
                 while _alt!=2 and _alt!=ATN.INVALID_ALT_NUMBER:
                     if _alt == 1:
-                        self.state = 127
+                        self.state = 174
                         self.match(peterParser.INTEGER)
-                        self.state = 128
+                        self.state = 175
                         self.match(peterParser.COMMA)
 
                     else:
                         raise NoViableAltException(self)
-                    self.state = 131 
+                    self.state = 178 
                     self._errHandler.sync(self)
-                    _alt = self._interp.adaptivePredict(self._input,11,self._ctx)
+                    _alt = self._interp.adaptivePredict(self._input,14,self._ctx)
 
-                self.state = 133
+                self.state = 180
                 self.match(peterParser.INTEGER)
-                self.state = 134
+                self.state = 181
                 self.match(peterParser.CLOSEBRACK)
                 pass
 
             elif la_ == 2:
                 self.enterOuterAlt(localctx, 2)
-                self.state = 135
+                self.state = 182
                 self.match(peterParser.OPENBRACK)
-                self.state = 138 
+                self.state = 185 
                 self._errHandler.sync(self)
                 _alt = 1
                 while _alt!=2 and _alt!=ATN.INVALID_ALT_NUMBER:
                     if _alt == 1:
-                        self.state = 136
+                        self.state = 183
                         self.match(peterParser.FLOAT)
-                        self.state = 137
+                        self.state = 184
                         self.match(peterParser.COMMA)
 
                     else:
                         raise NoViableAltException(self)
-                    self.state = 140 
+                    self.state = 187 
                     self._errHandler.sync(self)
-                    _alt = self._interp.adaptivePredict(self._input,12,self._ctx)
+                    _alt = self._interp.adaptivePredict(self._input,15,self._ctx)
 
-                self.state = 142
+                self.state = 189
                 self.match(peterParser.FLOAT)
-                self.state = 143
+                self.state = 190
                 self.match(peterParser.CLOSEBRACK)
                 pass
 
             elif la_ == 3:
                 self.enterOuterAlt(localctx, 3)
-                self.state = 144
+                self.state = 191
                 self.match(peterParser.OPENBRACK)
-                self.state = 147 
+                self.state = 194 
                 self._errHandler.sync(self)
                 _alt = 1
                 while _alt!=2 and _alt!=ATN.INVALID_ALT_NUMBER:
                     if _alt == 1:
-                        self.state = 145
+                        self.state = 192
                         self.match(peterParser.CHAR)
-                        self.state = 146
+                        self.state = 193
                         self.match(peterParser.COMMA)
 
                     else:
                         raise NoViableAltException(self)
-                    self.state = 149 
+                    self.state = 196 
                     self._errHandler.sync(self)
-                    _alt = self._interp.adaptivePredict(self._input,13,self._ctx)
+                    _alt = self._interp.adaptivePredict(self._input,16,self._ctx)
 
-                self.state = 151
+                self.state = 198
                 self.match(peterParser.CHAR)
-                self.state = 152
+                self.state = 199
                 self.match(peterParser.CLOSEBRACK)
                 pass
 
@@ -1229,62 +1616,62 @@ class peterParser ( Parser ):
     def rval(self):
 
         localctx = peterParser.RvalContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 22, self.RULE_rval)
+        self.enterRule(localctx, 32, self.RULE_rval)
         try:
-            self.state = 164
+            self.state = 211
             self._errHandler.sync(self)
-            la_ = self._interp.adaptivePredict(self._input,15,self._ctx)
+            la_ = self._interp.adaptivePredict(self._input,18,self._ctx)
             if la_ == 1:
                 self.enterOuterAlt(localctx, 1)
-                self.state = 155
+                self.state = 202
                 self.match(peterParser.ID)
                 pass
 
             elif la_ == 2:
                 self.enterOuterAlt(localctx, 2)
-                self.state = 156
+                self.state = 203
                 self.match(peterParser.CHAR)
                 pass
 
             elif la_ == 3:
                 self.enterOuterAlt(localctx, 3)
-                self.state = 157
+                self.state = 204
                 self.match(peterParser.STRING)
                 pass
 
             elif la_ == 4:
                 self.enterOuterAlt(localctx, 4)
-                self.state = 158
+                self.state = 205
                 self.match(peterParser.INTEGER)
                 pass
 
             elif la_ == 5:
                 self.enterOuterAlt(localctx, 5)
-                self.state = 159
+                self.state = 206
                 self.match(peterParser.FLOAT)
                 pass
 
             elif la_ == 6:
                 self.enterOuterAlt(localctx, 6)
-                self.state = 160
+                self.state = 207
                 self.match(peterParser.TRUE)
                 pass
 
             elif la_ == 7:
                 self.enterOuterAlt(localctx, 7)
-                self.state = 161
+                self.state = 208
                 self.match(peterParser.FALSE)
                 pass
 
             elif la_ == 8:
                 self.enterOuterAlt(localctx, 8)
-                self.state = 162
+                self.state = 209
                 self.list_()
                 pass
 
             elif la_ == 9:
                 self.enterOuterAlt(localctx, 9)
-                self.state = 163
+                self.state = 210
                 self.expr()
                 pass
 
@@ -1337,13 +1724,13 @@ class peterParser ( Parser ):
     def arithop(self):
 
         localctx = peterParser.ArithopContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 24, self.RULE_arithop)
+        self.enterRule(localctx, 34, self.RULE_arithop)
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 166
+            self.state = 213
             _la = self._input.LA(1)
-            if not((((_la) & ~0x3f) == 0 and ((1 << _la) & 4063232) != 0)):
+            if not((((_la) & ~0x3f) == 0 and ((1 << _la) & 16252928) != 0)):
                 self._errHandler.recoverInline(self)
             else:
                 self._errHandler.reportMatch(self)
@@ -1396,13 +1783,13 @@ class peterParser ( Parser ):
     def asnop(self):
 
         localctx = peterParser.AsnopContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 26, self.RULE_asnop)
+        self.enterRule(localctx, 36, self.RULE_asnop)
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 168
+            self.state = 215
             _la = self._input.LA(1)
-            if not((((_la) & ~0x3f) == 0 and ((1 << _la) & 130023424) != 0)):
+            if not((((_la) & ~0x3f) == 0 and ((1 << _la) & 520093696) != 0)):
                 self._errHandler.recoverInline(self)
             else:
                 self._errHandler.reportMatch(self)
@@ -1420,7 +1807,7 @@ class peterParser ( Parser ):
     def sempred(self, localctx:RuleContext, ruleIndex:int, predIndex:int):
         if self._predicates == None:
             self._predicates = dict()
-        self._predicates[7] = self.conditional_sempred
+        self._predicates[11] = self.conditional_sempred
         pred = self._predicates.get(ruleIndex, None)
         if pred is None:
             raise Exception("No predicate with index:" + str(ruleIndex))

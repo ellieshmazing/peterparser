@@ -62,6 +62,42 @@ class peterParserListener(ParseTreeListener):
         pass
 
 
+    # Enter a parse tree produced by peterParser#elseblock.
+    def enterElseblock(self, ctx:peterParser.ElseblockContext):
+        pass
+
+    # Exit a parse tree produced by peterParser#elseblock.
+    def exitElseblock(self, ctx:peterParser.ElseblockContext):
+        pass
+
+
+    # Enter a parse tree produced by peterParser#elifblock.
+    def enterElifblock(self, ctx:peterParser.ElifblockContext):
+        pass
+
+    # Exit a parse tree produced by peterParser#elifblock.
+    def exitElifblock(self, ctx:peterParser.ElifblockContext):
+        pass
+
+
+    # Enter a parse tree produced by peterParser#whileblock.
+    def enterWhileblock(self, ctx:peterParser.WhileblockContext):
+        pass
+
+    # Exit a parse tree produced by peterParser#whileblock.
+    def exitWhileblock(self, ctx:peterParser.WhileblockContext):
+        pass
+
+
+    # Enter a parse tree produced by peterParser#forblock.
+    def enterForblock(self, ctx:peterParser.ForblockContext):
+        pass
+
+    # Exit a parse tree produced by peterParser#forblock.
+    def exitForblock(self, ctx:peterParser.ForblockContext):
+        pass
+
+
     # Enter a parse tree produced by peterParser#body.
     def enterBody(self, ctx:peterParser.BodyContext):
         pass
@@ -95,6 +131,15 @@ class peterParserListener(ParseTreeListener):
 
     # Exit a parse tree produced by peterParser#conditionalop.
     def exitConditionalop(self, ctx:peterParser.ConditionalopContext):
+        pass
+
+
+    # Enter a parse tree produced by peterParser#comment.
+    def enterComment(self, ctx:peterParser.CommentContext):
+        pass
+
+    # Exit a parse tree produced by peterParser#comment.
+    def exitComment(self, ctx:peterParser.CommentContext):
         pass
 
 
